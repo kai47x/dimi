@@ -2,8 +2,8 @@
 
 # MODUL DimiInstall;
 
-# zellview-dimi version 3.1.15 , 12. Mai 2023
-# copyright by zellview network
+# zellview-dimi version 3.2.01 , 29. Juli 2023
+# copyright by zellview new media
 
 # CONST
     Modulename="DimiInstall"
@@ -12,16 +12,16 @@
     sourceUrl="https://download.zellview.network"    # resource locator
     destDevice=$1                                    # destination device
 
-    version="3.1.15"
+    version="3.2.01"
     name="zellview dimi"
     label="zv-dimi"
-    release="Olivia"
+    release="Victoria"
 
     mountPt="mountPoint"
     persistPt="persistence"
 
-    persistVol="zv-persist-6G.dat"
-    reservedSpace=49000     # use for 64GB sticks
+    persistVol="zv-persist-6G-empty.dat"
+    reservedSpace=48900     # use for 64GB sticks
     
 #   persistVol="zv-persist-mini.dat"
 #   persistVol="zv-persist-4G.dat"
@@ -46,7 +46,7 @@
     echo
     echo "source-URL  $sourceUrl"
     echo "feedback    zellview@posteo.de"
-    echo "base        linuxmint 21.1 vera"
+    echo "base        linuxmint 21.2 victoria"
     echo "boot        ventoy 91"
     echo
 
@@ -97,7 +97,7 @@
     echo "done"
 
     echo -n "copy iso-image to $mountPt ... "
-    cp ../dimi-rsrc/iso/$label-$version-pure.iso $mountPt
+    cp ../dimi-iso/$label-$version-pure.iso $mountPt
     echo "done"
 
     echo "make dir $mountPt/$persistPt"
@@ -111,7 +111,7 @@
 #   cp Rsrc/$persistVolMini.zip $mountPt/$persistPt 
 
     echo "unzip $persistVol.zip to $persistPt"
-    unzip ../dimi-rsrc/dat/$persistVol.zip -d $mountPt/$persistPt
+    unzip Rsrc/dat/$persistVol.zip -d $mountPt/$persistPt
 #   echo "move $persistVol to persistence.dat"
 #   mv $mountPt/$persistPt/$persistVol $mountPt/$persistPt/persistence.dat
     echo
@@ -143,7 +143,7 @@ echo
 echo "visit us at github   https://github.com/zellview"
 echo "or sponsor zellview  https://sponsor.zellview.network"
 echo
-echo "keep the spirit of Pascal"
+echo "keep the spirit of Pascal and the message of Niklaus Wirth"
 echo "cu"
 echo
 echo "the zellview-team"

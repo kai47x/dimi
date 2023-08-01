@@ -23,6 +23,7 @@ Audiobearbeitung, Programmierung und vieles mehr.
 
 Um mit ***zellview-dimi*** zu starten download  
 >https://download.zellview.network/zv-dimi-ventoy.iso  
+und auf einen USB-Stick schreiben:  
 
 -> unter Windows  
 >mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:    

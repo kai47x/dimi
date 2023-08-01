@@ -6,9 +6,9 @@
 # BEGIN
     echo "***********************************************"
     echo $Modulname
-    echo "zellview v3.1.15   12.Mai 2023"
-    echo "copyright by zellview network"
-    echo "www.zellview.net"
+    echo "zellview v3.2.01   29. Juli 2023"
+    echo "copyright by zellview new media"
+    echo "www.zellview.network"
     echo
     echo "This script will install software-set for zellview-dimi."
     echo 
@@ -19,7 +19,7 @@
     echo
     echo "visit us at GitHub https://github.com/zellview"
     echo
-    echo "or sponsor our work here https://donate.zellview.network"
+    echo "or sponsor our work here https://sponsor.zellview.network"
     echo
     echo "Press RETURN to continue or CTRL+C to abort."
     read tmp
@@ -95,13 +95,13 @@
 echo "install succesfully finnished"
 echo "enjoy and happy coding"
 echo
-echo "feedback welcome at   zellview@posteo.de"
+echo "feedback welcome at zellview@posteo.de"
 echo
 echo "visit us at GitHub https://github.com/zellview"
 echo
 echo "or sponsor zellview https://sponsor.zellview.network"
 echo
-echo "keep the spirit of Pascal"
+echo "keep the spirit of Pascal and the message of Niklaus Wirth"
 echo "cu"
 echo "the zellview-team"
 echo

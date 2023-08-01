@@ -1,19 +1,27 @@
-# MODULE InstallChrome
+# MODULE InstallGoogleRemote;
 
+# copyright by zellview new media, 30.Juli 2023
+
+
+# BEGIN
 echo
-echo "install chrome"
+echo "install google-remote"
 
 beg=$(date +"%H%:M%:%S")
 echo "BEGIN (* at $beg *)"
 
-# get chrom package
-wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add
+# get key
+wget -O https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add
+
+# get package
+wget -nc -O
 
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 
 # apt update
-sudo apt update -y
-# install chrome
+#sudo apt update -y
+
+# install google-remote
 sudo apt install -y google-chrome-stable
 
 end=$(date +"%H%:M%:%S")
@@ -23,4 +31,4 @@ echo "END InstallChrome. at $end"
 # echo "elapsed time $elap"
 echo
 
-# END InstallChrome.
+# END InstallGoogleRemote.

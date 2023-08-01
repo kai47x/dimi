@@ -1,7 +1,7 @@
 # MODUL DimiConfig;
 
-# zellview dimi version 3.1.05 , 27.April 2023
-# copyright zellview network
+# zellview dimi version 3.2.01 , 29.Juli 2023
+# copyright by zellview new media 
 
 # CONST
 	Modulname="DimiConfig"

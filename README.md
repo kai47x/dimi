@@ -26,7 +26,7 @@ Um mit ***zellview-dimi*** zu starten download
 
 -> unter Windows  
 >mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:    
->http://download.zellvu.me/exe/rufus-4.0.exe  
+>https://drive.google.com/file/d/1dfA98KXI-WaFE8B15_OmgJo8i8xbBUnR/view?usp=sharing  
 
 -> unter Linux  
     

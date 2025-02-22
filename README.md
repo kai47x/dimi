@@ -22,7 +22,7 @@ Daneben gibt es Anwendungen zur Video- und
 Audiobearbeitung, Programmierung und vieles mehr.  
 
 Um mit ***zellview-dimi*** zu starten download  
->http://download.zellvu.me/zv-dimi-ventoy.iso  
+>https://drive.google.com/file/d/12TvGTcO0cXtqGOjFKaVsb0gqz9o93odS/view?usp=sharing
 
 -> unter Windows  
 >mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:    
@@ -43,4 +43,4 @@ Viel Spass mit ***zellview-dimi*** und linuxmint
   
 the zellview-team  
 
-(c)2024 zellview media 
+(c)2025 zellview media 
